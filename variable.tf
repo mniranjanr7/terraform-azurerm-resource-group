@@ -9,3 +9,15 @@ variable "location" {
     default = "West Europe"
     type = string
 }
+
+variable "project" {
+    description = "This is the project"
+    default = "CDO"
+    type = string
+}
+
+variable "snowqueue" {
+    description = "This is the snowqueue"
+    default = "Data-Platform"
+    type = string
+}
