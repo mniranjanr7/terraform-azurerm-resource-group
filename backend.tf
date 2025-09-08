@@ -7,3 +7,14 @@
     
 #   }
 # }
+
+    terraform {
+      cloud {
+        organization = "kynsight-org"
+        # Optional: Specify a workspace name if you don't want to use the default
+        # or if you want to explicitly connect to an existing workspace.
+        # workspace = "dev" 
+        # Optional: Specify a project if you want to create or associate the workspace with a specific project.
+        # project = "your-hcp-project-name" 
+      }
+    }
